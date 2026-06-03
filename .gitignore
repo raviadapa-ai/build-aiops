@@ -1,0 +1,83 @@
+```gitignore
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Models
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Data Files
+*.csv
+*.parquet
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-data/
+*.tar
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Node (if frontend exists)
+node_modules/
+
+# Terraform
+.terraform/
+*.tfstate
+
+# Kubernetes
+kubeconfig.yaml
+```
